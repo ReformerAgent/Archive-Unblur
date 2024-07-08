@@ -1,0 +1,25 @@
+{
+    "manifest_version":3,
+    "name":"Archive Unblur",
+    "version":"1.0",
+    "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+    "content_scripts":[
+        {"matches":["https://archive.org/details/*","https://archive.org/search*"],
+        "js":["content.js"],"run_at": "document_idle"}
+    ],
+    "action": {
+        "default_popup": "popup.html"
+  },
+  "icons": {
+    "16":"images/logo_16.png",
+    "32":"images/logo_32.png",
+    "48":"images/logo_48.png",
+    "128": "images/logo_128.png"
+  }
+}
