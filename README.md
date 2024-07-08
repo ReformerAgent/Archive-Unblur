@@ -1,7 +1,7 @@
 # Archive-Unblur
 Chrome Extension for removing the preview blur in titles marked inappropriate on archive.org
 
-#Instructions to Install
+# Instructions to Install
 Download as zip (by tapping on the green code button above)
 Extract the file.
 The folder Archive-Unblur will contain all the files.
@@ -16,5 +16,5 @@ For Chrome goto chrome://extensions/
 
 Same Steps for other browsers.
 
-#Instructions to Use
+# Instructions to Use
 when surfing on archive.org click on the extension from the extensions widgit and toggle censor on/off.
