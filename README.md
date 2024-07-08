@@ -7,7 +7,8 @@ Chrome Extension for removing the preview blur in titles marked inappropriate on
 <li>The folder Archive-Unblur will contain all the files.</li>
 <li>Open the brower where you want to install this extension eg: Chrome, Opera Gx etc.</li>
 
-For Chrome goto chrome://extensions/
+## For Chrome:
+  <li>goto chrome://extensions/ </li>
   <li>toggle developer mode from top-right</li>
   <li>click on load unpacked on top-left</li>
   <li>navigate to Archive-Unblur</li>
