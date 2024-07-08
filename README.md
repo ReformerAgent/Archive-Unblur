@@ -2,7 +2,7 @@
 Chrome Extension for removing the preview blur in titles marked inappropriate on archive.org
 
 # Instructions to Install
-Download as zip (by tapping on the green code button above)
+<li>Download as zip (by tapping on the green code button above)</li>
 Extract the file.
 The folder Archive-Unblur will contain all the files.
 Open the brower where you want to install this extension eg: Chrome, Opera Gx etc.
