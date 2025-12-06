@@ -4,13 +4,14 @@
     "version":"1.0",
     "permissions": [
     "activeTab",
-    "storage"
+    "storage",
+    "tabs"
   ],
   "background": {
     "service_worker": "background.js"
   },
     "content_scripts":[
-        {"matches":["https://archive.org/details/*","https://archive.org/search*"],
+        {"matches":["https://archive.org/details/*","https://archive.org/search*","https://archive.org/labs/*"],
         "js":["content.js"],"run_at": "document_idle"}
     ],
     "action": {
