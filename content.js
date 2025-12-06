@@ -101,16 +101,13 @@ function checkAndModifyElements() {
     totalUnblurred++;
   });
 
-  // Method 2: Look for drop-shadow containers with blurred images
+  // Method 2: Look for drop-shadow containers and their overlays
   const dropShadowContainers = document.querySelectorAll('.drop-shadow');
   dropShadowContainers.forEach(container => {
-    const img = container.querySelector('img.blur');
-    if (img) {
-      fadeOutBlur(img);
-      totalUnblurred++;
-    }
+    // Note: Images in containers are already processed in Method 1, so we skip them here
+    // to avoid double-counting. Method 2 focuses on container-specific overlays.
 
-    // Also check for any child elements that might be overlays
+    // Check for any child elements that might be overlays
     const overlays = container.querySelectorAll('[class*="overlay"], [class*="inappropriate"]');
     overlays.forEach(overlay => fadeOutElement(overlay));
   });

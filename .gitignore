@@ -14,7 +14,6 @@ node_modules/
 
 # Build artifacts
 *.zip
-README.md
 .cursor/
 .specstory/
 .cursorignore
