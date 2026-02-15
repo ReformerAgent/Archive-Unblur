@@ -1,0 +1,21 @@
+# Development files
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node modules (if any)
+node_modules/
+
+# Build artifacts
+*.zip
+.cursor/
+.specstory/
+.cursorignore
+shadow-box.html
+archive-example.html

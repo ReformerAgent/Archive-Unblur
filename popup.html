@@ -1,19 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Toggle Script</title>
+  <title>Archive Unblur</title>
   <link rel="stylesheet" href="popup.css">
 </head>
 <body>
-    <p class = "text">Disable Censor</p>
-  <div class="onoffswitch">
-    
-    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" tabindex="0">
-    <label class="onoffswitch-label" for="myonoffswitch">
-        <span class="onoffswitch-inner"></span>
-        <span class="onoffswitch-switch"></span>
-    </label>
-  </div>
+    <h3 style="margin: 0 0 10px 0; color: #333;">Archive Unblur</h3>
+
+    <div style="margin-bottom: 15px;">
+        <p class="text" style="margin: 0 0 5px 0;">Disable Censor</p>
+        <div class="onoffswitch">
+            <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" tabindex="0">
+            <label class="onoffswitch-label" for="myonoffswitch">
+                <span class="onoffswitch-inner"></span>
+                <span class="onoffswitch-switch"></span>
+            </label>
+        </div>
+    </div>
+
+    <div>
+        <p class="text" style="margin: 0 0 5px 0;">Show Notifications</p>
+        <div class="onoffswitch">
+            <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="toastToggle" tabindex="0">
+            <label class="onoffswitch-label" for="toastToggle">
+                <span class="onoffswitch-inner"></span>
+                <span class="onoffswitch-switch"></span>
+            </label>
+        </div>
+    </div>
+
+    <div id="stats" style="margin-top: 15px; font-size: 11px; color: #666; text-align: center;">
+        Loading stats...
+    </div>
+
   <script src="popup.js"></script>
 </body>
 </html>
